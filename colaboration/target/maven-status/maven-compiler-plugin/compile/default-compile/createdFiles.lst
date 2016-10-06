@@ -1,0 +1,12 @@
+colaboration\model\Message.class
+colaboration\service\UserService.class
+colaboration\model\User.class
+colaboration\service\impl\UserServiceImpl.class
+colaboration\model\cusstomar.class
+colaboration\model\Users.class
+colaboration\dao\impl\UserDaoImpl.class
+colaboration\model\OutputMessage.class
+colaboration\controller\HomeController.class
+colaboration\model\Authorities.class
+colaboration\dao\UserDao.class
+colaboration\controller\RegisterController.class
