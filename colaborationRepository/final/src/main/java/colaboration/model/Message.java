@@ -1,5 +1,4 @@
 package colaboration.model;
-
 public class Message {
 
 	  private String message;

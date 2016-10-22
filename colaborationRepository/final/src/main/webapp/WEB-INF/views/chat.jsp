@@ -5,7 +5,14 @@
 <head>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
     <link href="resources/css/demo.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.angularjs.org/1.4.8/angular.js"></script>  
+   <script src="http://code.angularjs.org/1.4.8/angular-resource.js"></script>  
+   <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
   </head>
+  
   <body ng-app="chatApp">
     <div ng-controller="ChatCtrl" class="container">
       <form ng-submit="addMessage()" name="messageForm">
