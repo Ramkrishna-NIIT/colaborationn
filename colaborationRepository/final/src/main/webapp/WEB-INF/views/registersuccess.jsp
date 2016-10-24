@@ -7,4 +7,4 @@
         <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
     </head><body>
 
-<div class="cover"> <div class="cover-image"></div><div class="container"> <div class="row"> <div class="col-md-12 text-center"> <h1 class="text-primary">Registration Successfully:<br><br>Thank You for Registration<br><br>Welcome to our Colaboration World</h1> <br><br><a href="home" class="btn btn-lg btn-success">Back TO Home</a> </div></div></div></div></body></html>
+<div class="cover"> <div class="cover-image"></div><div class="container"> <div class="row"> <div class="col-md-12 text-center"> <h2 class="text-primary">Registration Successfully:<br><br>Thank You for Registration<br><br>Welcome to our Colaboration World</h2> <br><br><a href="/register" class="btn btn-lg btn-success">Back TO Home</a> </div></div></div></div></body></html>

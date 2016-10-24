@@ -76,30 +76,30 @@
 			<!-- ============================================================================================== -->
 
 
-			<table class="table table-striped table-hover">
+			<table class="table table-striped table-hover table-bordered table-condensed">
 				<thead>
 					<tr>
 
 						<!-- Performing sort functionality using angular both in ascending and descending manner -->
 						<!-- ============================================================================================== -->
 
-						<th ng-click="sort('title')">Title <span
+						<th ng-click="sort('title')"  bgcolor="#F5E9A1">Title <span
 							class="glyphicon sort-icon" ng-show="sortKey=='name'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('content')">Content <span
+						<th ng-click="sort('content')"  bgcolor="#F5E9A1">Content <span
 							class="glyphicon sort-icon" ng-show="sortKey=='price'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('user')">User <span
+						<th ng-click="sort('user')"  bgcolor="#F5E9A1">User <span
 							class="glyphicon sort-icon" ng-show="sortKey=='category'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('date')">Date <span
+						<th ng-click="sort('date')"  bgcolor="#F5E9A1">Date <span
 							class="glyphicon sort-icon" ng-show="sortKey=='category'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th>More Info</th>
+						<th bgcolor="#B3F4DB">More Info</th>
 
 					</tr>
 				</thead>

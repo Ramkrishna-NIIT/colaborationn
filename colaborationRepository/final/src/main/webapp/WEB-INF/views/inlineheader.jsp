@@ -12,7 +12,7 @@
         <span class="icon-bar"></span>
       </button>
       
-				<a class="navbar-brand" href="gotoindex"><img src="/Myblog/resources/images/diginxt.png"></img> </a>
+				<a class="navbar-brand" href="gotoindex"><!-- <img src="/Myblog/resources/images/diginxt.png"></img> --> </a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">

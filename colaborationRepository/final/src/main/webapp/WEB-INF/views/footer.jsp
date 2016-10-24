@@ -16,7 +16,7 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-    <link href="resources/css/csss" rel="stylesheet" type="text/css">
+    <link href="/colaboration/resources/css/csss" rel="stylesheet" type="text/css">
   </head>
 <div>
 

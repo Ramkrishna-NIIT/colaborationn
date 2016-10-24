@@ -119,7 +119,7 @@
         </div>
       </div>
     </div>
-    <div id="fullcarousel-example" data-interval="5000" class="carousel hidden-lg hidden-md hidden-sm hidden-xs slide"
+    <div id="fullcarousel-example" data-interval="2500" class="carousel hidden-lg hidden-md hidden-sm hidden-xs slide"
     data-ride="carousel">
       <div class="carousel-inner">
         <div class="item active" id="3">
@@ -133,7 +133,7 @@
       <a class="left carousel-control" href="#fullcarousel-example" data-slide="prev"><i class="icon-prev fa fa-angle-left"></i></a>
       <a class="right carousel-control" href="#fullcarousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
     </div>
-    <div class="carousel slide" id="fullcarousel-example" data-interval="5000"
+    <div class="carousel slide" id="fullcarousel-example" data-interval="2500"
     data-ride="carousel">
       <div class="carousel-inner">
         <div class="item active" id="1">

@@ -41,6 +41,16 @@
 </head>
 <body>
 <%@ include file='inlineheader.jsp'%>
+
+<div class="jumbotron">
+<div class="row">
+  <div class="col-md-6">
+   
+   
+  <img src="/colaboration/resources/images/forum.jpg" class="img-circle" alt="Cinque Terre" width="250" height="250">
+            <h3 class="text-left">Create Forum</h3>
+  </div>
+   <div class="col-md-6">
 <c:url var="addAction" value="/user/openforum/addforum" ></c:url>
 <div align="center">
 		<form:form action="${addAction}" method="POST" commandName="forum">
@@ -77,7 +87,9 @@
 </table>
 </form:form>
 </div>
-
+</div>
+</div>
+</div>
 <div  ng-app="repeatSample" class="section">
 	<div class="container">
 
@@ -116,30 +128,30 @@
 			<!-- ============================================================================================== -->
 
 
-			<table class="table table-striped table-hover">
+			<table class="table table-striped table-hover table-bordered table-condensed">
 				<thead>
 					<tr>
 
 						<!-- Performing sort functionality using angular both in ascending and descending manner -->
 						<!-- ============================================================================================== -->
 
-						<th ng-click="sort('title')">Title <span
+						<th ng-click="sort('title')" bgcolor="#F5E9A1">Title <span
 							class="glyphicon sort-icon" ng-show="sortKey=='name'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('content')">Category <span
+						<th ng-click="sort('content')" bgcolor="#F5E9A1">Category <span
 							class="glyphicon sort-icon" ng-show="sortKey=='price'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('user')">User <span
+						<th ng-click="sort('user')" bgcolor="#F5E9A1">User <span
 							class="glyphicon sort-icon" ng-show="sortKey=='category'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('date')">Date <span
+						<th ng-click="sort('date')" bgcolor="#F5E9A1">Date <span
 							class="glyphicon sort-icon" ng-show="sortKey=='category'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th>More Info</th>
+						<th bgcolor="#B3F4DB">More Info</th>
 
 					</tr>
 				</thead>

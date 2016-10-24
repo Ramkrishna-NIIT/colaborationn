@@ -12,7 +12,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="jumbotron">
+            
               <h1 class="text-primary">
                 <i>Register Yourself</i>
               </h1>

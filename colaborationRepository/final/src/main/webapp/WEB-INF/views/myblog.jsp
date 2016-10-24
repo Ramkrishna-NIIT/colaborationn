@@ -33,7 +33,15 @@
 
 
 
-
+<div class="jumbotron">
+<div class="row">
+  <div class="col-md-6">
+   
+   
+  <img src="/colaboration/resources/images/blog.jpg" class="img-circle" alt="Cinque Terre" width="250" height="250">
+            <h3 class="text-left">Add Blog</h3>
+  </div>
+   <div class="col-md-6">
 <c:url var="addAction" value="/user/openblog/addblog" ></c:url>
 <div align="center">
 		<form:form action="${addAction}" method="POST" commandName="blog">
@@ -55,6 +63,9 @@
     </tr>
 </table>
 </form:form>
+</div>
+</div>
+</div>
 </div>
 
 <div  ng-app="repeatSample" class="section">
@@ -95,7 +106,7 @@
 			<!-- ============================================================================================== -->
 
 
-			<table class="table table-striped table-hover">
+			<table class="table table-striped table-hover table-bordered table-condensed">
 				<thead>
 					<tr>
 
@@ -138,7 +149,7 @@
 						<!-- ============================================================================================== -->
 
 						<td><a
-							href="blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}">
+							href="/Myblog/blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}">
 							Details
 							</a>
 						</td>
@@ -154,3 +165,12 @@
 
 </body>
 </html>
+<!-- <div class="jumbotron"> 
+ <div class="row">
+  <div class="col-md-6">
+   
+   
+  <img src="/colaboration/resources/images/blog.jpg" class="img-circle" alt="Cinque Terre" width="250" height="250">
+            <h3 class="text-center">Add Blog</h3>
+  </div>
+   <div class="col-md-6"> -->
