@@ -16,7 +16,7 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="<c:url value="/" />">Home</a></li>
+				<li class="active"><a href="<c:url value="/" />">Home</a></li>
                         <li><a href="<c:url value="/user/openblog" />">Blog</a></li>
                         <li><a href="<c:url value="/user/openforum" />">Forum</a></li>
                         <li><a href="<c:url value="/openchat"/> "  target="_blank">Chat</a></li>
@@ -27,13 +27,13 @@
 			</ul>
                     <ul class="nav navbar-nav pull-right">
                         <c:if test="${pageContext.request.userPrincipal.name != null}">
-                            <li><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
-                            <li><a href="<c:url value="/logout" />">Logout</a></li>
+                            <li class="active"><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
+                            <li class="active"><a href="<c:url value="/logout" />">Logout</a></li>
 
                             
 
                             <c:if test="${pageContext.request.userPrincipal.name == 'admin'}">
-                                <li><a href="<c:url value="/admin"/>">Admin</a></li>
+                                <li class="active"><a href="<c:url value="/admin"/>">Admin</a></li>
                             </c:if>
 
                         </c:if>

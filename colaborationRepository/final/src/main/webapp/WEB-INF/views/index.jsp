@@ -21,16 +21,9 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
     <link href="resources/css/csss" rel="stylesheet" type="text/css">
     
-  <!--    <!-- Bootstrap Core CSS -->
-    <link href="resources/styles/css/bootstrap.min.css" rel="stylesheet">
-
-    Custom CSS
-    <link href="resources/styles/css/business-casual.css" rel="stylesheet">
-
-    Fonts
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-	
+ 
+  
+   
 	
 	<script src="https://code.jquery.com/jquery.js"></script>
 
@@ -143,6 +136,82 @@
             <p></p>
           </div>
         </div>
+        <div class="item">
+          <img src="resources/css/photo-montage-1313550.jpg">
+          <div class="carousel-caption">
+            <h2>Colaboration world</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="resources/css/smartphone-1445489.jpg">
+          <div class="carousel-caption">
+            <h2>Colaboration world</h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#fullcarousel-example" data-slide="prev"><i class="icon-prev fa fa-angle-left"></i></a>
+      <a class="right carousel-control" href="#fullcarousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+    </div>
+      <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-warning">NIIT,Camac Street,Kolkata</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.940898781337!2d88.34996101453567!3d22.54388658519763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771765ba0f41%3A0x1bd0d3b2e93c7c16!2sAzimganj+House!5e0!3m2!1sen!2sin!4v1477570813165"
+            width="400" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>
+          <div class="col-md-6">
+            <div id="fullcarousel-example" data-interval="5000" class="carousel hidden-lg hidden-md hidden-sm hidden-xs slide"
+            data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="item active" id="3">
+                  <img src="C:\Users\ADMIN\Desktop\New folder (3)\.jpg">
+                  <div class="carousel-caption">
+                    <h2>Title</h2>
+                    <p>Description</p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#fullcarousel-example" data-slide="prev"><i class="icon-prev fa fa-angle-left"></i></a>
+              <a class="right carousel-control" href="#fullcarousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+            </div>
+            <div class="carousel slide" id="fullcarousel-example" data-interval="5000"
+            data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="item active" id="1">
+                  <img src="resources/css/hand-1592415.jpg">
+                  <div class="carousel-caption">
+                    <h2>Colaboration World</h2>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="resources/css/photo-montage-1313550.jpg">
+                  <div class="carousel-caption">
+                    <h2>Colaboration world</h2>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="resources/css/smartphone-1445489.jpg">
+                  <div class="carousel-caption">
+                    <h2>Colaboration world</h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#fullcarousel-example" data-slide="prev"><i class="icon-prev fa fa-angle-left"></i></a>
+              <a class="right carousel-control" href="#fullcarousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel slide" id="fullcarousel-example" data-interval="5000"
+    data-ride="carousel">
+      <div class="carousel-inner">
         <div class="item">
           <img src="resources/css/photo-montage-1313550.jpg">
           <div class="carousel-caption">

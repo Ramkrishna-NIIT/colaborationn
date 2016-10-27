@@ -119,7 +119,7 @@
 						<!-- ============================================================================================== -->
 
 						<td><a
-							href="/Myblog/forumDetails?id={{forum.fId}}&fTitle={{forum.fTitle}}&fCategory={{forum.fCategory}}&user={{forum.user}}&fcontent={{forum.fcontent}}">
+							href="/colaboration/forumDetails?id={{forum.fId}}&fTitle={{forum.fTitle}}&fCategory={{forum.fCategory}}&user={{forum.user}}&fcontent={{forum.fcontent}}">
 							Details
 							</a>
 						</td>

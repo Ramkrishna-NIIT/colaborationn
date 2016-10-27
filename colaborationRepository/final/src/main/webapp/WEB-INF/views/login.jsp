@@ -13,7 +13,7 @@
             <div class="jumbotron">
               <h2 class="text-primary">Login Here To Enter Our Colaboration World&nbsp;</h2>
               <p>...</p>
-              <a class="btn btn-primary btn-large">Learn more</a>
+
             </div>
           </div>     
     

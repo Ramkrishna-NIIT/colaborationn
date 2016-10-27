@@ -56,7 +56,7 @@
 		<form:form action="${addAction}" method="POST" commandName="forum">
 <table >
 <tr>
-                    <td colspan="2" align="center"><h2>Create Your Forum:</h2></td>
+                    <td colspan="2" align="center"><h2 class="text-primary">Create Your Forum:</h2></td>
                 </tr>
                 
                 
@@ -64,25 +64,25 @@
                 
          <tr>
         
-        <td><label for="category">Category</label></td>
-        <td><label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="DTJAVA" />DT-Java</label>
-          <label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="GNIIT" />GNIIT</label>
-          <label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="ANDROID" />ANDROID</label></td>
+        <td><label for="category" class="text-success">Category</label></td>
+        <td><label class="checkbox-inline text-info"><form:radiobutton path="fCategory" id="category" value="DTJAVA" />DT-Java</label>
+          <label class="checkbox-inline text-info"><form:radiobutton path="fCategory" id="category" value="GNIIT" />GNIIT</label>
+          <label class="checkbox-inline text-info"><form:radiobutton path="fCategory" id="category" value="ANDROID" />ANDROID</label></td>
                 
         
     </tr>
                 
                 
 <tr>
-        <td align="center">Add Title :</td>
+        <td align="center" class="text-success">Add Title :</td>
         <td><form:textarea style="width: 300px; height: 35px;" path="fTitle"/></td>
     </tr>
     <tr>
-        <td align="center">Add Forum :</td>
+        <td align="center" class="text-success">Add Forum :</td>
         <td><form:textarea style="width: 300px; height: 150px;" path="fcontent"/></td>
     </tr>
     <tr>
-        <td colspan="2" align="center"><input type="submit" value="Add Forum"></td>
+        <td colspan="2" align="center" class="text-success" ><input type="submit" value="Add Forum"></td>
     </tr>
 </table>
 </form:form>
@@ -171,7 +171,7 @@
 						<!-- ============================================================================================== -->
 
 						<td><a
-							href="/Myblog/forumDetails?id={{forum.fId}}&fTitle={{forum.fTitle}}&fCategory={{forum.fCategory}}&user={{forum.user}}&fcontent={{forum.fcontent}}">
+							href="/colaboration/forumDetails?id={{forum.fId}}&fTitle={{forum.fTitle}}&fCategory={{forum.fCategory}}&user={{forum.user}}&fcontent={{forum.fcontent}}">
 							Details
 							</a>
 						</td>

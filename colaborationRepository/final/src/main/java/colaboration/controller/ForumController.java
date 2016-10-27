@@ -69,7 +69,7 @@ public class ForumController {
 
 	@RequestMapping(value= "/user/openforum/addforum", method = RequestMethod.POST)
 	public String addProduct(@Valid @ModelAttribute("forum") Forum frm, Principal p)
-	{
+	{  
 		
 		frm.setUser(p.getName());
 		frm.setDate(new Date());

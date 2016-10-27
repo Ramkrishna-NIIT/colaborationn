@@ -144,15 +144,12 @@
 						<td>{{blog.user}}</td>
 						<td>{{blog.date}}</td>
 
-
-						<!-- Info button that maps to the ProductDetails view. Required Info for ProductDetails view is passed through request parameters -->
-						<!-- ============================================================================================== -->
-
-						<td><a
-							href="blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}">
-							Details
-							</a>
-						</td>
+                          <td><a
+							href="/colaboration/blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}"">Details</a></td>
+						
+						<!-- <td><a
+							href="blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}">Details</a>
+						</td> -->
 					</tr>
 				</tbody>
 			</table>

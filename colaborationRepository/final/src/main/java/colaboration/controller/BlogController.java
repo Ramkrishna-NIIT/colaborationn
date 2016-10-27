@@ -95,13 +95,11 @@ public class BlogController {
         return "blogDetails";
     }*/
 	@RequestMapping("/blogDetails")
-    public String showBlogDetails(/*Model model,User user, Principal p*/){
-		/*User users = us.getUserByusername(p.getName());
-		model.addAttribute("user", users);*/
+    public String showBlogDetails(Model model,User user, Principal p){
+		User users = us.getUserByusername(p.getName());
+		model.addAttribute("user", users);
         return "blogDetails";
     }
 	
-
-
 	
 }

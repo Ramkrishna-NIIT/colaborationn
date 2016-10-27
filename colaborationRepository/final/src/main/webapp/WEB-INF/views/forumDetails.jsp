@@ -23,11 +23,27 @@
 	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
 	<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<!-- stylist jsp -->
+	 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/css2.css" rel="stylesheet" type="text/css">
 	</head>
 <body>
 <%@ include file='inlineheader.jsp'%>
-
-
+<div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="" class="img-responsive">
+            <h1>Congratulation, ${param.user}</h1>
+            <p></p>
+            <p>Your Forum posts are attached here
+              <br>
+              <br></p>
+            <p></p>
+          </div>
+<div class="col-md-6">
 <table class="table">
 	<thead colspan="3">
 	<th><h1>Details</h1></th>
@@ -53,5 +69,10 @@
 		
 		</tbody>
 	</table>
+	</div>
+	</div>
+	</div>
+	</div>
+	
 	</body>
 	</html>
