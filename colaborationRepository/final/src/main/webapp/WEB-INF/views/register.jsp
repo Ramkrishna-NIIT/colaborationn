@@ -10,9 +10,11 @@
 <div class="section section-primary"></div>
     <div class="section section-info text-left">
       <div class="container">
+     
         <div class="row">
+         
           <div class="col-md-6">
-            
+            <div class="jumbotron">
               <h1 class="text-primary">
                 <i>Register Yourself</i>
               </h1>
@@ -20,6 +22,7 @@
               <a class="btn btn-primary btn-large">Learn more</a>
             </div>
           </div>
+        
             <hr class="small">
           
             <c:url var="addAction" value="/register/add" ></c:url>
@@ -129,6 +132,7 @@
 </table>  
 </form>
 </form:form>
+             </div>
             </div>
           </div>
         </div>

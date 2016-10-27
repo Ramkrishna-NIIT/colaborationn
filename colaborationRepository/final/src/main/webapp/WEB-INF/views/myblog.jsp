@@ -39,7 +39,7 @@
    
    
   <img src="/colaboration/resources/images/blog.jpg" class="img-circle" alt="Cinque Terre" width="250" height="250">
-            <h3 class="text-left">Add Blog</h3>
+            <h3 class="text-left text-primary">Add Blog</h3>
   </div>
    <div class="col-md-6">
 <c:url var="addAction" value="/user/openblog/addblog" ></c:url>
@@ -47,19 +47,19 @@
 		<form:form action="${addAction}" method="POST" commandName="blog">
 <table border="0">
 <tr>
-                    <td colspan="2" align="center"><h2>Add New Post</h2></td>
+                    <td colspan="2" align="center"><h2 class="text-primary">Add Your New Blog</h2></td>
                 </tr>
 <tr>
-        <td align="right">Add Title :</td>
+        <td align="right"><h3 class="text-success">Add Title :</h3></td>
         <td><form:textarea style="width: 300px; height: 35px;" path="blogTitle"  /></td>
     </tr>
     
     <tr>
-        <td align="right">Add Blog :</td>
-        <td><form:textarea style="width: 300px; height: 150px;" path="blogcontent"/></td>
+        <td align="right"><h3 class="text-success">Add Blog :</h3></td>
+        <td><form:textarea style="width: 350px; height: 150px;" path="blogcontent"/></td>
     </tr>
         <tr>
-        <td colspan="2" align="center"><input type="submit" value="Add Blog"></td>
+        <td colspan="2" align="center"><input type="submit" value="Add Blog" class="btn btn-default"></td>
     </tr>
 </table>
 </form:form>
@@ -113,23 +113,23 @@
 						<!-- Performing sort functionality using angular both in ascending and descending manner -->
 						<!-- ============================================================================================== -->
 
-						<th ng-click="sort('title')">Title <span
+						<th ng-click="sort('title')"  bgcolor="#F5E9A1">Title <span
 							class="glyphicon sort-icon" ng-show="sortKey=='name'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('content')">Content <span
+						<th ng-click="sort('content')"  bgcolor="#F5E9A1">Content <span
 							class="glyphicon sort-icon" ng-show="sortKey=='price'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('user')">User <span
+						<th ng-click="sort('user')"  bgcolor="#F5E9A1">User <span
 							class="glyphicon sort-icon" ng-show="sortKey=='category'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th ng-click="sort('date')">Date <span
+						<th ng-click="sort('date')"  bgcolor="#F5E9A1">Date <span
 							class="glyphicon sort-icon" ng-show="sortKey=='category'"
 							ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 						</th>
-						<th>More Info</th>
+						<th bgcolor="#B3F4DB">More Info</th>
 
 					</tr>
 				</thead>
@@ -149,7 +149,7 @@
 						<!-- ============================================================================================== -->
 
 						<td><a
-							href="/Myblog/blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}">
+							href="blogDetails?id={{blog.blogId}}&blogTitle={{blog.blogTitle}}&blogcontent={{blog.blogcontent}}&user={{blog.user}}">
 							Details
 							</a>
 						</td>

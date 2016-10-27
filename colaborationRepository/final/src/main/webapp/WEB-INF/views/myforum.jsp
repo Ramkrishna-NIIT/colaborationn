@@ -56,7 +56,7 @@
 		<form:form action="${addAction}" method="POST" commandName="forum">
 <table >
 <tr>
-                    <td colspan="2" align="center"><h2>Create New Forum:</h2></td>
+                    <td colspan="2" align="center"><h2>Create Your Forum:</h2></td>
                 </tr>
                 
                 
@@ -65,9 +65,9 @@
          <tr>
         
         <td><label for="category">Category</label></td>
-        <td><label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="java" />Java</label>
-          <label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="springmvc" />Spring MVC</label>
-          <label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="angularjs" />AngularJS</label></td>
+        <td><label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="DTJAVA" />DT-Java</label>
+          <label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="GNIIT" />GNIIT</label>
+          <label class="checkbox-inline"><form:radiobutton path="fCategory" id="category" value="ANDROID" />ANDROID</label></td>
                 
         
     </tr>
