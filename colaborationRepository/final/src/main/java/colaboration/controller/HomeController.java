@@ -24,6 +24,11 @@ public class HomeController {
 	{
 		return "aboutus";
 	}
+	@RequestMapping("/contactus")
+	public String loadcontactUs()
+	{
+		return "contactus";
+	}
 	
 	@RequestMapping("/admin")
 	public String loadAdminPage()

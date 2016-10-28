@@ -49,7 +49,7 @@
                 <a href="index.jsp"><h3>Home</h3></a>
               </li>
               <li>
-                <a href="contact.html "><h3>Contacts</h3></a>
+                <a href="contactus "><h3>Contacts</h3></a>
               </li>
                 <li>
                 <a href="aboutus"><h3>About</h3></a>
@@ -144,7 +144,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="resources/css/smartphone-1445489.jpg">
+          <img src="resources/css/2.jpg">
           <div class="carousel-caption">
             <h2>Colaboration world</h2>
             <p></p>
@@ -163,11 +163,11 @@
             width="400" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
           </div>
           <div class="col-md-6">
-            <div id="fullcarousel-example" data-interval="5000" class="carousel hidden-lg hidden-md hidden-sm hidden-xs slide"
+            <div id="fullcarousel-example" data-interval="1500" class="carousel hidden-lg hidden-md hidden-sm hidden-xs slide"
             data-ride="carousel">
               <div class="carousel-inner">
                 <div class="item active" id="3">
-                  <img src="C:\Users\ADMIN\Desktop\New folder (3)\.jpg">
+                  <img src="resources/css/niit.jpg">
                   <div class="carousel-caption">
                     <h2>Title</h2>
                     <p>Description</p>
@@ -177,25 +177,25 @@
               <a class="left carousel-control" href="#fullcarousel-example" data-slide="prev"><i class="icon-prev fa fa-angle-left"></i></a>
               <a class="right carousel-control" href="#fullcarousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
             </div>
-            <div class="carousel slide" id="fullcarousel-example" data-interval="5000"
+            <div class="carousel slide" id="fullcarousel-example" data-interval="1500"
             data-ride="carousel">
               <div class="carousel-inner">
                 <div class="item active" id="1">
-                  <img src="resources/css/hand-1592415.jpg">
+                  <img src="resources/css/niit.jpg">
                   <div class="carousel-caption">
                     <h2>Colaboration World</h2>
                     <p></p>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="resources/css/photo-montage-1313550.jpg">
+                  <img src="resources/css/niit2.jpeg">
                   <div class="carousel-caption">
                     <h2>Colaboration world</h2>
                     <p></p>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="resources/css/smartphone-1445489.jpg">
+                  <img src="resources/css/niit1.jpg">
                   <div class="carousel-caption">
                     <h2>Colaboration world</h2>
                     <p></p>
